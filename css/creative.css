@@ -5049,7 +5049,7 @@ input[type="button"].btn-block {
     margin-bottom: 0;
   }
   .card-group > .card + .card {
-    margin-left: 0;
+    margin-left: 10px;
     border-left: 0;
   }
   .card-group > .card:not(:last-child) {
@@ -6909,13 +6909,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: #04be04 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #ee3e0d !important;
+  background-color: #099610 !important;
 }
 
 .bg-secondary {
@@ -8651,19 +8651,9 @@ button.bg-dark:focus {
   padding: 1rem !important;
 }
 
-.pt-3,
-.py-3 {
-  padding-top: 1rem !important;
-}
-
 .pr-3,
 .px-3 {
   padding-right: 1rem !important;
-}
-
-.pb-3,
-.py-3 {
-  padding-bottom: 1rem !important;
 }
 
 .pl-3,
@@ -10747,4 +10737,12 @@ header.masthead h1 {
 
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+.card-group{
+  padding: 10px;
+}
+
+.card{
+  margin-left: 10px !important;
 }
